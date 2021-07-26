@@ -1,0 +1,40 @@
+{
+  "name": "ExpenseManager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Harsh Tripathi",
+  "license": "MIT",
+  "scripts": {
+    "dev-server": "webpack serve --mode development",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "^5.0.2",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-modal": "2.2.2",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "uuid": "^8.3.2",
+    "webpack": "^5.0.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
